@@ -45,9 +45,8 @@ namespace SpaceInvaders
                         used = true;
                         if (booster.improvementType == "armor") player.armor += 10; // Add armor for player
                         Debug.WriteLine("Added 10 armor: " + player.armor);
-                        if (booster.improvementType == "life") player.life += 10; // Add armor for player
+                        if (booster.improvementType == "life") player.life += 10; // Add life for player
                         Debug.WriteLine("Added 10 life: " + player.life);
-                        //player = new UpgradeArmor(player, 10);
                         if (booster.improvementType == "gun") player.gundmg += 10; // Add gunDmg for player
                         Debug.WriteLine("Boost: " + booster.improvementType);
                     }
